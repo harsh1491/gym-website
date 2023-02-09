@@ -1,9 +1,15 @@
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
 
-const Button = () => {
+export default function Button(){
     return (
         <button css={styles}>Join Us</button>
+    )
+}
+
+export function SubmitButton(){
+    return (
+        <button css={styles}>Submit</button>
     )
 }
 
@@ -18,4 +24,3 @@ const styles = css`
     outline: none;
 `
 
-export default Button;

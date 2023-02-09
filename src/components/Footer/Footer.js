@@ -2,7 +2,7 @@
 import { css, jsx } from '@emotion/core';
 import Container from "../Global/Container";
 import FooterCard from "./FooterCard";
-import Button from "../Global/Button/Button";
+import {SubmitButton} from "../Global/Button/Button.js";
 
 const Footer = () => {
     return (
@@ -10,9 +10,9 @@ const Footer = () => {
             <Container>
                 <FooterCard cardHeading="Gym">
                     <div className="firstCard">
-                        <p>5th flora, 700/D kings road, green lane New York-1782</p>
-                        <a href="">+10 367 826 2567</a>
-                        <a href="">contact@carpenter.com</a>
+                        <p>5th Floor Unimall, Lovely Professional University, Phagwara</p>
+                        <a href="">+91 9420420420</a>
+                        <a href="">sainiharsh1491@gmail.com</a>
                         <div className="social">
                             <i class="fab fa-facebook-f"></i>
                             <i class="fab fa-twitter"></i>
@@ -30,18 +30,18 @@ const Footer = () => {
                         <a href="">Contact</a>
                     </div>
                 </FooterCard>
-                <FooterCard cardHeading="Subscribe">
-                    <div className="subscribe">
+                <FooterCard cardHeading="Feedback">
+                    <div className="feedback">
                         <div className="input">
-                            <input type="text" placeholder="Enter your Email" />
-                            <Button />
+                            <input type="text" placeholder="Customer Feedback" />
+                            <SubmitButton />
                         </div>
-                        <p>Esteem spirit temper too say adieus who direct esteem esteems luckily.</p>
+                        <p>Please give your valuable feedback.</p>
                     </div>
                 </FooterCard>
             </Container>
             <div className="copyright">
-                <p>Copyright ©2020 All rights reserved | This template is made with <i class="far fa-heart"></i> by Colorlib</p>
+                <p>Copyright ©2023 All rights reserved | Harsh Saini</p>
             </div>
         </footer>
     )
@@ -102,7 +102,7 @@ const styles = css`
                 }
             }
         }
-        .subscribe {
+        .feedback {
             padding: 40px 0 0 0;
             .input {
                 position: relative;

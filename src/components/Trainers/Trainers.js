@@ -16,9 +16,9 @@ const Trainers = () => {
         <section className="trainers" css={styles}>
             <Heading title="OUR TRAINERS" info="There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration." />
             <Container>
-                <TrainerCard trainerImg={Trainer3} trainerName="Jessica Mino" trainerType="Woman Trainer" />
-                <TrainerCard trainerImg={Trainer1} trainerName="Amit Khan" trainerType="Men Trainer" />
-                <TrainerCard trainerImg={Trainer2} trainerName="Paulo Rolac" trainerType="Men Trainer" />
+                <TrainerCard trainerImg={Trainer3} trainerName="Bhumika Aggarwal" trainerType="Woman Trainer" />
+                <TrainerCard trainerImg={Trainer1} trainerName="Prashan Buchha" trainerType="Men Trainer" />
+                <TrainerCard trainerImg={Trainer2} trainerName="Dixit Kumawat" trainerType="Men Trainer" />
             </Container>
         </section>
     )
